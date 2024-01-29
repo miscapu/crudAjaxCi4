@@ -1,0 +1,20 @@
+CRITICAL - 2024-01-29 00:09:36 --> Attempt to read property "id" on array
+in APPPATH/Views/Pages/Dashboard.php on line 19.
+ 1 APPPATH/Views/Pages/Dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/Applications/MAMP/htdocs/CodeIgniter/Crud/4/Delete/app/Views/Pages/Dashboard.php', 19)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/MAMP/htdocs/CodeIgniter/Crud/4/Delete/app/Views/Pages/Dashboard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH/Controllers/UserController.php(22): CodeIgniter\View\View->render('Pages/Dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-29 00:43:21 --> Undefined variable $records
+in APPPATH/Views/Pages/Dashboard.php on line 19.
+ 1 APPPATH/Views/Pages/Dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', '/Applications/MAMP/htdocs/CodeIgniter/Crud/4/Delete/app/Views/Pages/Dashboard.php', 19)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/MAMP/htdocs/CodeIgniter/Crud/4/Delete/app/Views/Pages/Dashboard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH/Controllers/UserController.php(22): CodeIgniter\View\View->render('Pages/Dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
